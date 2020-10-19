@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora para construção</title>
+    <link href = "https://fonts.googleapis.com/css2? family = Russo + One & display = swap" rel = "stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    
+</head>
+
+<body>
+  <!-- <div class="container"> -->
+    
+    <header id="cabecalho" alt="cabeçalho">CALCULADORA PARA CONSTRUÇÃO </header>
+    <!--Inicio do Formulário-->
+    <form id="form" class="relativo">
+    
+
+        <div class="form-label">Digite o tamanho do seu terreno em M²: <input type="number" id="terreno"></div><br>
+        <div class="form-label">Digite a taxa de ocupação em %: <input type="number" id="ocupacao"> <a href="#txt-ocupacao" title="Texto explicativo sobre taxa de ocupação"> Clique aqui para saber mais.</a> </div><br>
+        <div class="form-label">Digite o coeficiente de aproveitamento: <input type="number" id="coeficiente"> <a href="#txt-coeficiente" title="Texto explicativo sobre coeficiente de aproveitamento"> Clique aqui para saber mais.</a> </div><br>
+        <div class="form-label">Digite a taxa de permeabilidade em %: <input type="number" id="permeabilidade"> <a href="#txt-permeabilidade" title="Texto explicativo sobre taxa de permeabilidade"> Clique aqui para saber mais.</a></div><br>
+
+        <input type="button" value="Calcular" id="btn-calcula" onclick="calcular()" onmouseenter="entrouC()" onmouseout="saiuC()">
+        <input type="reset" value="Limpar"  id="btn-limpar" onclick="limpar()" onmouseenter="entrouL()" onmouseout="saiuL()">
+                
+        <div id="resposta">
+          <label id="res1" class="resultado"> </label><br>
+          <label id="res2" class="resultado"> </label><br>
+          <label id="res3" class="resultado"> </label><br>
+        </div>
+    </form>
+
+    <!--FIM-->
+    
+
+    <!--Texto explicativo-->
+    <div class="txt-explica">
+
+      <section id="txt-ocupacao"><h1>Taxa de Ocupação</h1>
+        <p>TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO -  TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO -TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO 
+        </p>
+      </section>
+
+      <hr/>
+        <section id="txt-coeficiente"><h1>Coeficiente de Aproveitamento</h1>
+          <p>EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO -TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO</p>
+      </section>
+
+      <hr/>
+      <section id="txt-permeabilidade"><h1>Taxa de Permeabilidade</h1>
+         <p>TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO -TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO - TEXTO EXPLICATIVO</p>
+      </section>      
+    </div>
+    <!--FIM-->
+
+    <nav id="seta-para-cima"><a href="#cabecalho" title="Voltar para o formulário"><img src="img/icones/seta-para-cima.png" alt="voltar para o formulário"></a></nav>
+
+    <footer id="roda-pe">
+      2020 - Alexsandro Felix da Silva - Estudante de Tecnologia em Análise e Desenvolvimento de Sistemas<br>
+      UNINOVE - MEMORIAL BARRA FUNDA<br>
+
+            <!--Inicio de  icones para redes dociais-->
+            <nav id="redes-sociais">
+              <p>Minhas Redes Sociais</p>
+              <a href="https://www.linkedin.com/in/alexsandro-felix-8203b1190/" title="Acesse meu Linkedin" target="_blank"><img src="img/icones/linkedin.png" id="img-linkedin" class="redes-sociais" alt="Ir para o meu Linkedin"></a>
+      
+              <a href="https://www.facebook.com/Leehfelixx/" title="Acesse meu Facebook" target="_blank"><img src="img/icones/facebook.png" id="img-facebook" class="redes-sociais" alt="Ir para o meu facebook"></a>
+      
+              <a href="https://api.whatsapp.com/send?phone=5511976203572&text=sua%20mensagem" title="Mande uma mensagem no meu Whatsapp" target="_blank"><img src="img/icones/whatsapp.png" id="img-whatsapp" class="redes-sociais" alt="mandar uma menssagem no meu whatsapp"></a>
+          
+            </nav>
+          <!--Fim-->
+
+      <div id="fonte-de-icones">Ícones feitos por <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
+    </footer>
+    
+  <!--</div>-->
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

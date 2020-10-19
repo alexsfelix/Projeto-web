@@ -1,0 +1,104 @@
+body {
+    background-color: rgba(119, 115, 115, 0.137);
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+hr {
+    position: relative;
+    margin-top: 10%;        
+}
+
+h1 {
+    text-align: left;
+}
+.container{
+    position: relative;
+    width: auto;
+    height: auto;        
+    }
+
+#cabecalho{
+    position: relative;
+    color: white;
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.959);
+    /*font-family: DejaVu Sans Mono, monospace;*/
+    padding: 15px;
+    font-family:'Filósofo', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+ }
+
+a:link, a:visited{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+
+}
+
+
+.txt-explica {
+    position: relative;
+    background-color: white;
+    margin-top: 19%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 65%;
+    padding:20px 50px 40px 50px ;
+    text-align:justify;
+    }
+
+    #txt-ocupacao{
+    margin-bottom: 500px;
+    }
+    #txt-coeficiente{
+    
+    margin-bottom: 400px;
+    }
+    #txt-permeabilidade{
+    margin-bottom: 400px;
+}
+
+/*termino do texto explicativo*/
+
+
+#seta-para-cima {
+    position: fixed;
+    z-index: 1;
+    width: 50px;
+    bottom: 10px;
+    right: 20px;
+       
+}
+
+#roda-pe {
+    position: relative;
+    color:black;
+    font-family:FreeMono, monospace;
+    background-color:rgba(0, 0, 0, 0.233);
+    text-align: center;
+    width: 100%;
+    height: 180px;
+    padding: 20px 0;
+    }
+
+    /*icones interativos*/
+    #redes-sociais {
+    position: relative;
+    left: 50%;
+    transform:translatex(-50%);
+    }
+
+    .redes-sociais {
+    position: relative;
+    width: 50px;
+    }
+
+    #fonte-de-icones {
+    position: relative;
+    font-size: 12px;
+    margin-top: 1%;
+    }

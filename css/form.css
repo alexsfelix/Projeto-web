@@ -1,0 +1,82 @@
+#form {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.048);
+    border: rgba(197, 207, 207, 0.205);
+    border-radius: 10px;
+    border-style: groove;
+    width: 60%;
+    left: 20%;
+    margin-top: 1%;
+    padding: 1% ;
+    }
+
+    .form-label {
+    border-radius: 5px;
+    background-color: rgba(169, 169, 169, 0.212);
+    font-family: DejaVu Sans Mono, monospace;
+    text-align: left;
+    padding:5px 10px 5px 10px;    
+    }
+
+    #terreno{ 
+    position: relative;
+    width: 70px;
+    margin: 5px 20px 5px 15px;
+    }
+
+    #ocupacao {
+    position: relative;
+    width: 70px;
+    margin:5px 20px 5px 75px;
+        }
+    #coeficiente{
+    position: relative;
+    width: 70px;
+    margin:5px 20px 5px 5px;
+    }
+
+    #permeabilidade{
+    position: relative;
+    width: 70px;
+    margin: 5px 20px 5px 23px;
+}
+
+    #btn-calcula{
+    position: relative;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(130, 179, 211);
+    font-family: DejaVu Sans Mono, monospace;
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    left:2%;
+        }
+
+    #btn-limpar{
+    position: relative;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: darkgrey;
+    position: relative;
+    font-family: DejaVu Sans Mono, monospace;
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 18%;
+    
+    }
+
+    #resposta{
+    position: relative;
+    background-color: darkgrey;
+    border-radius: 5px;
+    font-family: DejaVu Sans Mono, monospace;
+    text-align: left;
+    padding:5px 10px 5px 10px;
+    margin-top: 10px;
+}
