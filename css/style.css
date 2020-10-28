@@ -1,9 +1,18 @@
-body {
+body{
     background-color: rgba(119, 115, 115, 0.137);
     margin: 0;
     padding: 0;
     border: 0;
 }
+
+.container{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: auto;
+    height: auto;        
+    }
+    
 hr {
     position: relative;
     margin-top: 10%;        
@@ -12,11 +21,7 @@ hr {
 h1 {
     text-align: left;
 }
-.container{
-    position: relative;
-    width: auto;
-    height: auto;        
-    }
+
 
 #cabecalho{
     position: relative;
@@ -68,9 +73,10 @@ a:link, a:visited{
 #seta-para-cima {
     position: fixed;
     z-index: 1;
-    width: 50px;
-    bottom: 10px;
-    right: 20px;
+    width: 20px;
+    height: 20px;
+    bottom: 40px;
+    right: 48px;
        
 }
 

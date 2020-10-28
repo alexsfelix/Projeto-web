@@ -11,9 +11,9 @@
 </head>
 
 <body>
-  <!-- <div class="container"> -->
-    
+  <div class="container">
     <header id="cabecalho" alt="cabeçalho">CALCULADORA PARA CONSTRUÇÃO </header>
+
     <!--Inicio do Formulário-->
     <form id="form" class="relativo">
     
@@ -23,8 +23,8 @@
         <div class="form-label">Digite o coeficiente de aproveitamento: <input type="number" id="coeficiente"> <a href="#txt-coeficiente" title="Texto explicativo sobre coeficiente de aproveitamento"> Clique aqui para saber mais.</a> </div><br>
         <div class="form-label">Digite a taxa de permeabilidade em %: <input type="number" id="permeabilidade"> <a href="#txt-permeabilidade" title="Texto explicativo sobre taxa de permeabilidade"> Clique aqui para saber mais.</a></div><br>
 
-        <input type="button" value="Calcular" id="btn-calcula" onclick="calcular()" onmouseenter="entrouC()" onmouseout="saiuC()">
-        <input type="reset" value="Limpar"  id="btn-limpar" onclick="limpar()" onmouseenter="entrouL()" onmouseout="saiuL()">
+        <input type="button" value="Calcular" id="btn-calcular" class="botoes">
+        <input type="reset" value="Limpar"  id="btn-limpar" class="botoes">
                 
         <div id="resposta">
           <label id="res1" class="resultado"> </label><br>
@@ -77,7 +77,7 @@
       <div id="fonte-de-icones">Ícones feitos por <a href="https://www.flaticon.com/br/autores/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
     </footer>
     
-  <!--</div>-->
+  </div>
   <script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
