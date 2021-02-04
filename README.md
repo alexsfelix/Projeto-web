@@ -45,5 +45,6 @@ Facilita para o usuário quando selecionar um link que o levará para texto expl
 #### O que falta?
 * Responsividade
 * Logo
-* Textos Explicativos
-* melhorar o design da página.
+* Textos Explicativo
+* Melhorias no design da página
+* Melhorias nos icones das redes sociais
