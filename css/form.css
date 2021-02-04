@@ -54,14 +54,15 @@
     border-radius: 5px;
     left:2%;
     }
+    /*
     .botoes:hover{
         background-color: rgba(169, 169, 169, 0.582);
     }
-    /*
+    */
     #btn-calcular:hover{
        background-color: rgba(169, 169, 169, 0.582);
     }
-    */
+    
     #btn-limpar{
     position: relative;
     border: none;
@@ -76,11 +77,11 @@
     border-radius: 5px;
     margin-left: 18%;
     }
-    /*
+    
     #btn-limpar:hover{
         background-color: rgba(169, 169, 169, 0.582);
     }
-    */
+    
     #resposta{
     position: relative;
     background-color: darkgrey;
